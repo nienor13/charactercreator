@@ -1458,8 +1458,8 @@ export const i18nData = {
      ru: {
         "remaining_boost_pool_label": "Remaining Boost Points:",
         "confirm_incomplete_skill_boosts": "You have not distributed all {maxBoosts} skill boosts. Do you want to continue anyway?",
-        "page_title": "Delta Green Agent Creator",
-        "app_header": "Delta Green Agent Creation",
+        "page_title": "Cоздатель агентов Дельта Грин",
+        "app_header": "Создание агентов Дельта Грин",
         "footer_feedback_text": "Have feedback or found a bug? Let me know on",
         "footer_feedback_link": "Reddit",
         "footer_text": "Published by arrangement with the Delta Green Partnership. The intellectual property known as Delta Green is a trademark and copyright owned by the Delta Green Partnership, who has licensed its use here. This includes allelements that are components of the Delta Green intellectual property.", // Slight change
