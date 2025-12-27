@@ -160,7 +160,7 @@ function initializeApplication() {
             });
         }
         
-        if (lanRuButton) {
+        if (langRuButton) {
             langRuButton.addEventListener('click', () => {
                 setLanguage('ru');
                 updateLanguageButtons();
