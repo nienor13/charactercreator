@@ -112,9 +112,11 @@ export function setLanguage(lang) {
     const langDeButton = document.getElementById('lang-de');
     const langEnButton = document.getElementById('lang-en');
     const langEsButton = document.getElementById('lang-es');
+    const langRuButton = document.getElementById('lang-ru');
     if (langDeButton) langDeButton.classList.toggle('active', lang === 'de');
     if (langEnButton) langEnButton.classList.toggle('active', lang === 'en');
     if (langEsButton) langEsButton.classList.toggle('active', lang === 'es');
+    if (langRuButton) langRuButton.classList.toggle('active', lang === 'ru');
 }
 
 export function getCurrentLanguage() {
