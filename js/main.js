@@ -116,6 +116,7 @@ function initializeApplication() {
         const langDeButton = document.getElementById('lang-de');
         const langEnButton = document.getElementById('lang-en');
         const langEsButton = document.getElementById('lang-es');
+        const langRuButton = document.getElementById('lang-ru');
         
         // Update aria-pressed based on current language
         const updateLanguageButtons = () => {
@@ -131,6 +132,10 @@ function initializeApplication() {
             if (langEsButton) {
                 langEsButton.setAttribute('aria-pressed', currentLang === 'es' ? 'true' : 'false');
                 langEsButton.classList.toggle('active', currentLang === 'es');
+            }
+            if (langRuButton) {
+                langRuButton.setAttribute('aria-pressed', currentLang === 'ru' ? 'true' : 'false');
+                langRuButton.classList.toggle('active', currentLang === 'ru');
             }
         };
         
@@ -155,6 +160,12 @@ function initializeApplication() {
             });
         }
         
+        if (lanRuButton) {
+            langRuButton.addEventListener('click', () => {
+                setLanguage('ru');
+                updateLanguageButtons();
+            });
+        }
         // Initial update
         updateLanguageButtons();
         
