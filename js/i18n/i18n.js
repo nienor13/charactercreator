@@ -9,6 +9,7 @@ export function setupTranslations() {
     if (i18nData && i18nData.en) translations.en = i18nData.en;
     if (i18nData && i18nData.de) translations.de = i18nData.de;
     if (i18nData && i18nData.es) translations.es = i18nData.es;
+    if (i18nData && i18nData.ru) translations.ru = i18nData.ru;
 }
 
 export function t(key, replacements = {}) {
